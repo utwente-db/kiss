@@ -1,0 +1,31 @@
+* {
+	text-align: 	center;
+	border:			0px;
+	text-decoration:none;
+	font-family: 	DejaVu Sans,Arial,Verdana;
+	margin:			0;
+	padding:		0;
+	font-color:		black;
+}
+
+#resultsTable {
+	width:			100%;
+}
+
+#resultsTable thead tr {
+	background:		green !important;
+	font-weight: 	bold;
+	color:			white;
+}
+
+tr:nth-child(even) {
+	background: 	#67A467;
+}
+
+tr:nth-child(odd) {
+	background: 	white;	
+}
+
+td {
+	padding:		10px;
+}

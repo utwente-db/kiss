@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>AnswerQuestions Service Test page</title>
+</head>
+<body>
+	<form name="formname" action="AnswerQuestions" method="post"
+		enctype="multipart/form-data">
+		<select name="dataType">
+			<option value="gps">gps</option>
+			<option value="answers">answers</option>
+		</select>
+		<br/>
+		<input type="file" name="data" /><br/> 
+		<input type="text" name="teamId" value="AAA15" /><br/>
+		<input type="text" name="deviceId" value="12345" /><br/>
+		<input type="submit" value="Verstuur" />
+	</form>
+	
+	<hr/>
+	<form name="formname" action="Image" method="post"
+		enctype="multipart/form-data">
+		<input type="file" name="image" /><br/> 
+		<input type="text" name="exerciseId" value="aap" /><br/>
+		<input type="text" name="deviceId" value="12345" /><br/>
+		<input type="submit" value="Verstuur" />
+	</form>
+</body>
+</html>
