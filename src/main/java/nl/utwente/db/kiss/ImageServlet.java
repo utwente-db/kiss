@@ -22,7 +22,7 @@ import javax.servlet.http.Part;
 public class ImageServlet extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
-
+    
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
     	response.setHeader("Access-Control-Allow-Origin", "*");
@@ -64,7 +64,7 @@ public class ImageServlet extends HttpServlet {
     	String deviceId = request.getParameter("deviceId");
 
         // Create path components to save the file
-        Part filePart = request.getPart("image");
+        Part filePart = request.getPart("data");
         String fileName = getFileName(filePart);
         
         String folderPath = KissUtils.ROOT_FOLDER + "images/" + exerciseId;

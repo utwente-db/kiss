@@ -40,6 +40,14 @@ holder.
       UTwente DB Kick-In Scavenger Hunt Server
     </javaee:description>
   <servlet>
+    <servlet-name>GPSUpload</servlet-name>
+    <servlet-class>nl.utwente.db.kiss.GPSUploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GPSUpload</servlet-name>
+    <url-pattern>/GPSUpload</url-pattern>
+  </servlet-mapping>
+  <servlet>
     <servlet-name>Messages</servlet-name>
     <servlet-class>nl.utwente.db.kiss.MessagesServlet</servlet-class>
   </servlet>
