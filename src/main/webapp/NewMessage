@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Kick-In Scavenger Hunt Message Service Backend</title>
+</head>
+<body>
+	<form name="formname" action="Messages" method="post">
+		<input type="text" name="title_en" value="English Title" /><br/>
+		<textarea name="text_en">English Message</textarea><br/>
+		<br/>
+		<input type="text" name="title_nl" value="Nederlandse Titel" /><br/>
+		<textarea name="text_nl">Nederlands Bericht</textarea><br/>
+		<input type="submit" value="Verstuur" />
+	</form>
+</body>
+</html>
